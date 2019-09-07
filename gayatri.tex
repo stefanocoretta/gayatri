@@ -1,0 +1,94 @@
+\documentclass[a4paper,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{FreeSans}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Gāyatrī mantra},
+            pdfauthor={Stefano Coretta},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+
+  \title{Gāyatrī mantra}
+    \author{Stefano Coretta}
+    \date{}
+  
+\usepackage{expex}
+\lingset{everyglpreamble=\bf}
+\newcommand\SC[1]{\textsc{#1}}
+
+\newfontfamily\nagari[Script=Devanagari]{Siddhanta}
+
+\begin{document}
+\maketitle
+
+The \emph{Gāyatrī} mantra is an invocation of the Sun God
+(\emph{Savitṛ}), from the \emph{Ṛgveda} (3.62.10).
+
+\ex \begingl \glpreamble {\nagari तत्स॑वि॒तुर्वरे॑ण्यं॒ भर्गो॑ दे॒वस्य॑धीमहि ।}//
+\glpreamble tatsaviturvareṇyaṃ bhargo devasyadhīmahi//
+\gla tat savituḥ vareṇyaṃ bhargaḥ devasya dhīmahi//
+\glb that.\SC{acc:sg} Sun.\SC{gen:sg} excellent.\SC{acc:sg} radiance.\SC{acc:sg} god.\SC{gen:sg} meditate.\SC{opt:1pl}//
+\glb that {of the Sun} excellent radiance {of the god} {let's meditate}//
+\glft `Let's meditate on that excellent radiance of the Sun god'//
+\endgl \xe
+
+\ex \begingl \glpreamble {\nagari धियो॒ यो नः॑ प्रचो॒दया॑त् ॥}//
+\glpreamble dhiyo yo naḥ pracodayāt//
+\gla dhiyaḥ yaḥ naḥ pracodayāt//
+\glb thought.\SC{acc:pl} \SC{who} \SC{1pl:poss} inspire.\SC{opt:1sg}//
+\glb thoughts who our {he shall inspire}//
+\glft `who shall inspire our thoughts.'//
+\endgl \xe
+
+
+\end{document}
