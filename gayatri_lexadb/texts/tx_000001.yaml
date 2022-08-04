@@ -1,0 +1,19 @@
+id: tx_000001
+title: "Gāyatrī mantra"
+sentences:
+  st_000001:
+    id: st_000001
+    sentence: तत्स॑वि॒तुर्वरे॑ण्यं॒ भर्गो॑ दे॒वस्य॑धीमहि ।
+    transcription: tatsaviturvareṇyaṃ bhargo devasyadhīmahi
+    morpho: tat savituḥ vareṇyaṃ bhargaḥ devasya dhīmahi
+    gloss: that.ACC:SG sun.GEN:SG excellent.ACC:SG radiance.ACC:SG god.GEN:SG meditate.OPT:1PL
+    gloss_2: that <of the Sun> excellent radiance <of the god> <let's meditate>
+    translation: Let's meditate on that excellent radiance of the Sun god
+  st_000002:
+    id: st_000002
+    sentence: धियो॒ यो नः॑ प्रचो॒दया॑त् ॥
+    transcription: dhiyo yo naḥ pracodayāt
+    morpho: dhiyaḥ yaḥ naḥ pracodayāt
+    gloss: thought.ACC:PL who 1PL:POSS inspire.OPT:1PL
+    gloss_2: thoughts who our <he shall inspire>
+    translation: who shall inspire our thoughts.

@@ -1,0 +1,27 @@
+---
+title: "Gāyatrī mantra"
+author: "Stefano Coretta"
+format:
+  html:
+    include-in-header: head.html
+    include-after-body: body-end.html
+editor: visual
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(lexa)
+gaya <- load_lexadb("gayatri_lexadb")
+```
+
+The *Gāyatrī* mantra is an invocation of the Sun God (*Savitṛ*), from the *Ṛgveda* (3.62.10).
+
+## Text
+
+`r include_gloss(gaya, 1, 1)`
+
+`r include_gloss(gaya, 1, 2)`
+
